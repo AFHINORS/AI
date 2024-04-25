@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title('Powered By Shayan Farahani')
 
-inp = st.text_area('معلم گرامی سوال خود را ذکر کنید.')
+inp = st.text_area('معلم گرامی سوال خود را ذکر کنید')
 
 ok = st.button('بزن بریم')
 
