@@ -1,4 +1,3 @@
-import g4f
 import streamlit as st
 
 st.title('Powered By Shayan Farahani')
