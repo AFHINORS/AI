@@ -1,5 +1,4 @@
-import streamlit as st
-import g4f
+
 st.title('Powered By Shayan Farahani')
 
 inp = st.text_area('معلم گرامی سوال خود را ذکر کنید')
