@@ -2,9 +2,9 @@ import streamlit as st
 
 st.title('Powered By Shayan Farahani')
 
-inp = st.text_area('هر سوالی دارید بپرسید')
+inp = st.text_area('معلم گرامی سوال خود را ذکر کنید.')
 
-ok = st.button('Lets Go')
+ok = st.button('بزن بریم')
 
 if inp != "" and ok:
     response =g4f.ChatCompletion.create(
